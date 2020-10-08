@@ -11,3 +11,10 @@ This scrit contains a function next_fib which takes two parameters as input- lis
 
 ## AbstractNames.py
 This script  has a function abstract_names which takes input parameter as a list of lists. Each list is a list of names each with a first name and a last name. The function returns a dictionary. The keys to the dictionary are the first names and the values are the list of the associated last names. The last names are sorted alphabetically.
+
+## PingPong.py
+The script has a function check_pingpong_winner which takes input parameter as a tuple of 2 integers. The first integer is Player 1 score and second integer is player 2 score. The function returns a string as per below:-
+
+ - If Player 1 has won, return "Player 1 wins!"
+ - If Player 2 has won, return "Player 2 wins!"
+ - If neither player has won, return "Keep playing!"
