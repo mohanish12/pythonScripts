@@ -17,4 +17,7 @@ The script has a function check_pingpong_winner which takes input parameter as a
 
  - If Player 1 has won, return "Player 1 wins!"
  - If Player 2 has won, return "Player 2 wins!"
- - If neither player has won, return "Keep playing!"
+ - If neither player has won, return "Keep playing!"\
+ 
+## PositiveEvens.py
+The script has a function count_positive_evens which takes input as a list of integers and returns output as a single integer. The number the function return is the count of numbers from the list that were both positive and even
