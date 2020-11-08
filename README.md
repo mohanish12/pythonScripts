@@ -21,3 +21,6 @@ The script has a function check_pingpong_winner which takes input parameter as a
  
 ## PositiveEvens.py
 The script has a function count_positive_evens which takes input as a list of integers and returns output as a single integer. The number the function return is the count of numbers from the list that were both positive and even
+
+## UpperCopy.py
+the script has a function to_upper_copy which accepts two arguments 1. the input filename who content needs to read and converted to capital 2. The output file name where the contents read form file 1 are written into caps. Function does not return anything
