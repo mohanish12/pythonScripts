@@ -28,12 +28,12 @@ the script has a function to_upper_copy which accepts two arguments 1. the input
 ##ParsingDictionaries.py
 The script has a function check_value which accepts two arguments a dictionary to parse and a string to find. check_value looks of the string in the dictionary and get its value. The current value will always be a string. However check_value tries to convert it to an integer and a float, then return a message indicating the success of those transactions based on the below logic:-
 - If the key is not found in the dictionary, check_value
-#   should return the string: "Not found!"
-# - If the value corresponding to the key can be converted
-#   to an integer, check_value should return the string:
-#   "Integer!"
-# - Otherwise, if the value corresponding to the key can be
-#   converted to a float, check_value should return the
-#   string: "Float!"
-# - Otherwise, check_value should return the string:
-#   "String!"
+  should return the string: "Not found!"
+- If the value corresponding to the key can be converted
+  to an integer, check_value should return the string:
+  "Integer!"
+- Otherwise, if the value corresponding to the key can be
+  converted to a float, check_value should return the
+  string: "Float!"
+- Otherwise, check_value should return the string:
+  "String!"
