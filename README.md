@@ -37,3 +37,7 @@ The script has a function check_value which accepts two arguments a dictionary t
   string: "Float!"
 - Otherwise, check_value should return the string:
   "String!"
+  
+  
+## FindRange.py
+The script contains a function called find_range which expects an argumnent of file name containing one integer per line. The function parses through the file and returns a tuple containing the minimum and maximum of integers in the file.
