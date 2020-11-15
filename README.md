@@ -47,5 +47,6 @@ The script contains a function called pivot_library which accepts one argument w
 
 ## BookInfo.py
 The script contains a function called write_book_info which accepts two arguments - a string which represents the filename to write, a list of tuples in which each tuple contains three strings - book title, book author, book ISBN. The function writes the list of books to the filename using the below format:-
+
 ISBN: Title by Author
 
