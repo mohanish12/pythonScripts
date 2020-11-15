@@ -41,3 +41,6 @@ The script has a function check_value which accepts two arguments a dictionary t
   
 ## FindRange.py
 The script contains a function called find_range which expects an argumnent of file name containing one integer per line. The function parses through the file and returns a tuple containing the minimum and maximum of integers in the file.
+
+## PivotLibrary.py
+The script contains a function called pivot_library which accepts one argument which is a list of n tuples. Each tuple in return has three items - the first item is a book title (a string), the second item is the books author ( a string), the third item is the books ISBN number (a string). pivot_library returns a dictionary in which the keys are the ISBN numbers and the values are two item tuples in which the first item is the book title and the second item is the books author name.
