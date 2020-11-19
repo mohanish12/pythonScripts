@@ -50,3 +50,6 @@ The script contains a function called write_book_info which accepts two argument
 
 ISBN: Title by Author
 
+## Rainfall.py
+The script contains a function average_rainfall which has one parameter a list of intergers. The list represents daily rainfall measurements for a certain area. If the list has  a -1 at some point the average should stop and not consider any further readings. The function returns an integer with average of the readings
+
