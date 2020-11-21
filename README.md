@@ -53,3 +53,6 @@ ISBN: Title by Author
 ## Rainfall.py
 The script contains a function average_rainfall which has one parameter a list of intergers. The list represents daily rainfall measurements for a certain area. If the list has  a -1 at some point the average should stop and not consider any further readings. The function returns an integer with average of the readings
 
+## RectangularPrism.py
+The contains a function volume_and_area which takes in a dictionary. This dictionary is guarenteed to have three keys "length", "width" and "height" whose values are integers representing three attributes of a rectangular prism. The function modifies this dictionary to add two keys: "volume" and "area". The values associated with these keys should be the volume and surface area of the box. 
+
