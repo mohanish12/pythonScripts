@@ -56,3 +56,9 @@ The script contains a function average_rainfall which has one parameter a list o
 ## RectangularPrism.py
 The contains a function volume_and_area which takes in a dictionary. This dictionary is guarenteed to have three keys "length", "width" and "height" whose values are integers representing three attributes of a rectangular prism. The function modifies this dictionary to add two keys: "volume" and "area". The values associated with these keys should be the volume and surface area of the box. 
 
+## DigitCount.py
+The script contains a function called digit_count which takes input as a number, which could be either a float or an integer. It should return a dictionary whose keys are digits, and whose values are the number of times that digit appears in the number. The dictionary should not contain any numerals that do not appear at all in the number and it should not contain the decimal point character if the number is a decimal.
+For example:
+
+ digit_count(11223) -> {1: 2, 2: 2, 3: 1}
+ digit_count(3.14159) -> {3: 1, 1: 2, 4: 1, 5: 1, 9: 1}
