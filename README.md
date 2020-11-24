@@ -61,4 +61,5 @@ The script contains a function called digit_count which takes input as a number,
 For example:
 
  digit_count(11223) -> {1: 2, 2: 2, 3: 1}
+ 
  digit_count(3.14159) -> {3: 1, 1: 2, 4: 1, 5: 1, 9: 1}
