@@ -74,7 +74,18 @@ The script contains a function called write_class_data which will take as input 
  
  - A string representing the name of a course (e.g.  "Introduction to Computing", "Organic Chemistry", etc.)
  
-write_class_data should write the list of classes to the file given by the filename using the following format:
+write_class_data writes the list of classes to the file given by the filename using the following format:
 
 [major][number]: [class name]
+
+So, for this list:
+
+[("CS", 1301, "Introduction to Computing"), ("CHEM", "1310", "General Chemistry")]
+
+The file printed would look like this:
+
+CS1301: Introduction to Computing
+CHEM1310: General Chemistry
+
+
 
