@@ -63,3 +63,18 @@ For example:
  digit_count(11223) -> {1: 2, 2: 2, 3: 1}
  
  digit_count(3.14159) -> {3: 1, 1: 2, 4: 1, 5: 1, 9: 1}
+
+
+## ClassInfo.py
+The script contains a function called write_class_data which will take as input two parameters: a string and a list of tuples. The string will represent the filename to which to write. Each 3-tuple in the list will contain three values:
+
+ - A string representing the major of a college class (e.g.  "CS", "CHEM", "ENGL")
+ 
+ - An integer representing a course number (e.g. 1301, 2241, 4001)
+ 
+ - A string representing the name of a course (e.g.  "Introduction to Computing", "Organic Chemistry", etc.)
+ 
+write_class_data should write the list of classes to the file given by the filename using the following format:
+
+[major][number]: [class name]
+
