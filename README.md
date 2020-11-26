@@ -87,5 +87,7 @@ The file printed would look like this:
 CS1301: Introduction to Computing
 CHEM1310: General Chemistry
 
+## FindFirstLast2.py
+The script contains a function called first_to_last which takes as input a string representing a filename. Inside the file would be some text on each line, some lines would contain integers , while others will contain strings of other characters. first_to_last would return a tuple containing the first and last strings in the file aplphabetically. It should ignore any lines that contain integers.
 
 
