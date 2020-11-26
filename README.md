@@ -91,3 +91,11 @@ CHEM1310: General Chemistry
 The script contains a function called first_to_last which takes as input a string representing a filename. Inside the file would be some text on each line, some lines would contain integers , while others will contain strings of other characters. first_to_last would return a tuple containing the first and last strings in the file aplphabetically. It should ignore any lines that contain integers.
 
 
+## Profile.py
+The script contains a function called complete_profile. complete_profile takes as input a dictionary. This dictionary will have four keys first, middle, last and title. The function would return a dictionary with those four keys, and three more name, full_name, short_name. The values for those
+keys should be:
+
+- name: the first and last name, separated by a space
+- full_name: the title, first, middle, and last names, with a space between each pair of strings
+- short_name: the first letter of the first name, a space, and their last name
+
