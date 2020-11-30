@@ -99,3 +99,5 @@ keys should be:
 - full_name: the title, first, middle, and last names, with a space between each pair of strings
 - short_name: the first letter of the first name, a space, and their last name
 
+## FancyNames.py 
+The script contains a function called fancy_me which takes as input a list of strings each representing a full name in the format "First Middle Last". It returns a single string formatting that list of names in fancy style like this - F. M. Last. Each individual name is the first initial, then a period, then a space, then the second initial, then a  period, then a space, then the last name, then a comma. There is no comma after the last name in the list.
