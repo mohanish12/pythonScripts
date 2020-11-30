@@ -101,3 +101,8 @@ keys should be:
 
 ## FancyNames.py 
 The script contains a function called fancy_me which takes as input a list of strings each representing a full name in the format "First Middle Last". It returns a single string formatting that list of names in fancy style like this - F. M. Last. Each individual name is the first initial, then a period, then a space, then the second initial, then a  period, then a space, then the last name, then a comma. There is no comma after the last name in the list.
+
+## RockPaperScissors.py
+The script contains a function called find_winner which takes as input a list of 2-tuples each representing a round of Rock-Paper-Scissors. Each 2-tuple will contain two strings.Each string will be either "Rock", "Paper", or "Scissors". The first item in the 2-tuple will represent what Player 1 chooses in each round, and the second item in the 2-tuple will represent what Player 2 chooses in each round. find_winner whould return the string "Player 1 wins!" if Player 1 wins more games than Player 2. It would return the
+string "Player 2 wins!" if Player 2 wins more games than Player 1. It would return the string "It's a tie!" if the two players win an equal number of times. 
+In the game Rock-Paper-Scissors, two opponents simultaneously choose to throw either "Rock", "Paper", or "Scissors". Rock beats Scissors, Scissors beats Paper, and Paper beats Rock. If both players throw the same object, the round is a tie.
