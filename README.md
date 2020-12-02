@@ -141,3 +141,6 @@ The script contains a function called find_winner which takes as input a list of
 string "Player 2 wins!" if Player 2 wins more games than Player 1. It would return the string "It's a tie!" if the two players win an equal number of times. 
 In the game Rock-Paper-Scissors, two opponents simultaneously choose to throw either "Rock", "Paper", or "Scissors". Rock beats Scissors, Scissors beats Paper, and Paper beats Rock. If both players throw the same object, the round is a tie.
 </p>
+
+## PalindromeChecker.py
+The script contains a function called is_palindrome. The function has one parameter a string. The function returns TRUE if string is palindrome, FALSE if not. Assume that the only characters in the string are letters, spaces, apostrophes, commas, periods and question marks
