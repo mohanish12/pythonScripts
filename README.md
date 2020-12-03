@@ -142,5 +142,14 @@ string "Player 2 wins!" if Player 2 wins more games than Player 1. It would retu
 In the game Rock-Paper-Scissors, two opponents simultaneously choose to throw either "Rock", "Paper", or "Scissors". Rock beats Scissors, Scissors beats Paper, and Paper beats Rock. If both players throw the same object, the round is a tie.
 </p>
 
+# Algorithmic Scripts
+
 ## PalindromeChecker.py
 The script contains a function called is_palindrome. The function has one parameter a string. The function returns TRUE if string is palindrome, FALSE if not. Assume that the only characters in the string are letters, spaces, apostrophes, commas, periods and question marks
+
+## NotList.py
+The script contains a function called not_list which has two parameters- a list of booleans and a list of integers. The list of integers would represent the indices for the list of booleans. not_list would switch the values of all the booleans located at those indices. 
+For example:
+bool_list = [True, False, False]
+index_list = [0, 2]
+not_list(bool_list, index_list) -> [False, False, True]
