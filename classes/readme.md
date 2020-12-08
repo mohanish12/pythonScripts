@@ -1,1 +1,1 @@
-
+This particular folder contains python classes uploaded as .py file created for various use cases. It gives a good starting point to understand the concept of Object Oriented Programming with Python. It provides code on how to emplement the concept of encapsulation using classes, constructors, destructors, getters, setters.
