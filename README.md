@@ -153,3 +153,7 @@ For example:
 bool_list = [True, False, False]
 index_list = [0, 2]
 not_list(bool_list, index_list) -> [False, False, True]
+
+
+## CountSqaures.py
+The script contains a function called count_squares which takes as input a list of integers and returns as output a single integer. The number the function returns is the number of perfect squares it found in the list of integers. Check the algorithm used for this script [here]()
