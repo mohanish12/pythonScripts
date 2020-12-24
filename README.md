@@ -156,4 +156,4 @@ not_list(bool_list, index_list) -> [False, False, True]
 
 
 ## CountSqaures.py
-The script contains a function called count_squares which takes as input a list of integers and returns as output a single integer. The number the function returns is the number of perfect squares it found in the list of integers. Check the algorithm used for this script [here]()
+The script contains a function called count_squares which takes as input a list of integers and returns as output a single integer. The number the function returns is the number of perfect squares it found in the list of integers. Check the algorithm used for this script [here](https://github.com/mohanish12/algorithms/blob/main/perfect_sqaure.md)
