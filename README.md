@@ -157,3 +157,8 @@ not_list(bool_list, index_list) -> [False, False, True]
 
 ## CountSqaures.py
 The script contains a function called count_squares which takes as input a list of integers and returns as output a single integer. The number the function returns is the number of perfect squares it found in the list of integers. Check the algorithm used for this script [here](https://github.com/mohanish12/algorithms/blob/main/perfect_sqaure.md)
+
+## PalindromeBuilder.py
+The script contains a function called create_palindrome which has one parameter a string and returns one string as a palindrome. If the string was not already a palindrome, the function returns a new string made from the original string and the reverse of the original string.
+Eg. reate_palindrome("abc") -> "abccba"
+However if the string is already a palindrome the function just returns the original string by itself. In determining whether the string is a palindrome or not, the function ignores punctuation, capitalization, spaces, comma, aspostrophe and question marks
