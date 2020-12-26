@@ -166,3 +166,18 @@ However if the string is already a palindrome the function just returns the orig
 
 ## NegateList.py
 The script contains a function called negate_list which has two parameters - a list of floats and a list of integers. The list of integers represents indices for the list of floats. negate_list switches the sign of all the floats located at those indices
+
+## PointlessCopy.py
+The script contains a function called copy_pointless which takes two paramters both strings. The first string is the filename of the file to which to write and the second string is the filename of the file from which to read. copy_pointlessly copies the contents of input_file to output_file but makes the following changes:-
+- Replace all instances of the letter A (either capital or
+   lower case) with the at sign, @
+ - Replace all instances of the letter M (either capital or
+   lower case) with the character sequence |\/|
+ - Replace all instances of the letter W with the character
+   sequence \/\/
+ - Replace all instances of the letter O (either capital
+   or lower case) with the numeral 0
+ - Alternate the case for every remaining letter in the
+   string (hint: the_string.swapcase() returns the string
+   with the case of all letters swapped)
+
