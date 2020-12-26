@@ -162,3 +162,7 @@ The script contains a function called count_squares which takes as input a list 
 The script contains a function called create_palindrome which has one parameter a string and returns one string as a palindrome. If the string was not already a palindrome, the function returns a new string made from the original string and the reverse of the original string.
 Eg. reate_palindrome("abc") -> "abccba"
 However if the string is already a palindrome the function just returns the original string by itself. In determining whether the string is a palindrome or not, the function ignores punctuation, capitalization, spaces, comma, aspostrophe and question marks
+
+
+## NegateList.py
+The script contains a function called negate_list which has two parameters - a list of floats and a list of integers. The list of integers represents indices for the list of floats. negate_list switches the sign of all the floats located at those indices
