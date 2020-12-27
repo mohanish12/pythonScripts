@@ -185,3 +185,6 @@ The script contains a function called copy_pointless which takes two paramters b
 The script contains a function called sufficient_inventory which takes three parameters- a list of instances of InventoryItem representing the current inventory, an item name (a string) and a desired quantity (an integer). The function returns true if the below two conditions are met:-
 - There exists an instance of InventoryItem in the list whose name matches the the item name parameter.
 - The quantity associated with that instance is larger than the desired quantity.
+
+## Uno.py
+The script containes a function called check_uno_winner which takes one parameter- a tuple with at least two integers but up to 8
