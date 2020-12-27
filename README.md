@@ -187,4 +187,5 @@ The script contains a function called sufficient_inventory which takes three par
 - The quantity associated with that instance is larger than the desired quantity.
 
 ## Uno.py
-The script containes a function called check_uno_winner which takes one parameter- a tuple with at least two integers but up to 8
+The game Uno is a card game where each players goal is to get rid of all their cards. A round ends when the player has gotten rid of all their cards. They then receive a number of points based on the cards left on their opponents hands. The first player to reach 500 points across multiple rounds wins the game.
+The script containes a function called check_uno_winner which takes one parameter- a tuple with at least two integers but up to 8. Each integer wil represent one player's score. If any player has more than 500 points , check_uno_winner returns the string "Player X wins!" where X is the position of the player in the list who has more than 500 points. If no player has more than 500 points check_uno_winner returns "keep playing!"
