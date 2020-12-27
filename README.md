@@ -181,3 +181,7 @@ The script contains a function called copy_pointless which takes two paramters b
    string (hint: the_string.swapcase() returns the string
    with the case of all letters swapped)
 
+## InventorySearch.py
+The script contains a function called sufficient_inventory which takes three parameters- a list of instances of InventoryItem representing the current inventory, an item name (a string) and a desired quantity (an integer). The function returns true if the below two conditions are met:-
+- There exists an instance of InventoryItem in the list whose name matches the the item name parameter.
+- The quantity associated with that instance is larger than the desired quantity.
