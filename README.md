@@ -192,3 +192,6 @@ The script containes a function called check_uno_winner which takes one paramete
 
 ## findGCF.py
 The script contains a function called find_gcf which has two parameters both intergers. The function returns the Greatest Common Factor (GCF) of those two numbers.
+
+## PigLatin.py
+PigLatin is a fictitious language. To translate a word into Pig Latin, you would take the consonants up until the first vowel, move them to the end, and add "ay" to the end. The script contains a function called to_pig_latin which takes as input a single word, and return the Pig Latin version of the word.
