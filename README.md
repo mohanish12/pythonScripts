@@ -199,3 +199,6 @@ PigLatin is a fictitious language. To translate a word into Pig Latin, you would
 
 ## DeleteList.py
 The script contains a function delete_from_list which has two parameters - a list of string and a list of integers. The list of integers represent the indices of the items to delete from the list of strings. The function deletes the item from the list of strings and returns the resulting list
+
+## ExpandingDictionaries.py
+The script contains a function called add_to_dictionary which has three parameters- a dictionary, a potential new key, and a potential new value. The function adds the given key and value to the dictionary if the key is of a legal type to be used as a dictionary key and return the resultant dictionary. If the key is not a legal type to be used as a dictionary key return the string "Error!"
