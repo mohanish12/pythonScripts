@@ -195,3 +195,7 @@ The script contains a function called find_gcf which has two parameters both int
 
 ## PigLatin.py
 PigLatin is a fictitious language. To translate a word into Pig Latin, you would take the consonants up until the first vowel, move them to the end, and add "ay" to the end. The script contains a function called to_pig_latin which takes as input a single word, and return the Pig Latin version of the word.
+
+
+## DeleteList.py
+The script contains a function delete_from_list which has two parameters - a list of string and a list of integers. The list of integers represent the indices of the items to delete from the list of strings. The function deletes the item from the list of strings and returns the resulting list
