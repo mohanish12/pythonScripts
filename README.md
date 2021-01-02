@@ -202,3 +202,18 @@ The script contains a function delete_from_list which has two parameters - a lis
 
 ## ExpandingDictionaries.py
 The script contains a function called add_to_dictionary which has three parameters- a dictionary, a potential new key, and a potential new value. The function adds the given key and value to the dictionary if the key is of a legal type to be used as a dictionary key and return the resultant dictionary. If the key is not a legal type to be used as a dictionary key return the string "Error!"
+
+## Horse.py
+The game HORSE is a popular basketball shooting game. It can be played with any number of players. One by one each player takes a shot from anywhere they want. If they make the shot, the next person must make a shot. If they do not, they receive a letter: H, then O, then R, then S, then E. Once a player receives all five letters, they are out of the game.  The game continues until all but one player has all five letters.
+The script contains function check_horse_winner which takes as input a tuple of at least 2, but potentially more, strings. 
+check_horse_winner returns the following:-
+- If only one player is left with fewer than 5 letters,
+  return "Player X wins!", where X is the index of the
+  player in the list (which could be 0).
+- If more than one player has fewer than 5 letters,
+  return "Players X, Y: keep playing!", where X, Y, and
+  potentially more numbers are the indices of all players
+  who have not yet been eliminated.
+- If no player has 5 letters, return "Everyone: keep
+  playing!"
+
