@@ -216,4 +216,7 @@ check_horse_winner returns the following:-
   who have not yet been eliminated.
 - If no player has 5 letters, return "Everyone: keep
   playing!"
+  
+## CapitalConsonants.py
+The script contains a function called count_capital_consonants which takes as input a string and returns as output a single integer. The number the function returns is the count of characters from the string that were capital consonants.
 
