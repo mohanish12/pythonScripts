@@ -220,3 +220,7 @@ check_horse_winner returns the following:-
 ## CapitalConsonants.py
 The script contains a function called count_capital_consonants which takes as input a string and returns as output a single integer. The number the function returns is the count of characters from the string that were capital consonants.
 
+## Anagramchecker.py
+The script contains a function called are_anagrams. The function has two parameters- a pair of strings. The function returns True if the strings are anagrams of one annother, false if they are not. 
+Two strings are considered anagrams if they have only the same letters, as well as the same count of each letter. For this problem, we ignore spaces and capitalization. 
+
