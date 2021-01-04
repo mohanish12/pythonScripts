@@ -224,3 +224,5 @@ The script contains a function called count_capital_consonants which takes as in
 The script contains a function called are_anagrams. The function has two parameters- a pair of strings. The function returns True if the strings are anagrams of one annother, false if they are not. 
 Two strings are considered anagrams if they have only the same letters, as well as the same count of each letter. For this problem, we ignore spaces and capitalization. 
 
+## UpperLowerList.py
+The script contains a function called alter_list which has two parameters- a list of strings and a list of integers. The list of integers represents the indices for the list of strings. The function alters the capitalization of all the words at the designated indices. If the word has all capitals, it should become all lower case. if it was all lower case, it should become all capitals. 
