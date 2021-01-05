@@ -229,3 +229,6 @@ The script contains a function called alter_list which has two parameters- a lis
 
 ## RabbitHole.py
 The script contains a function called rabbit_hole which has two parameters- a dictionary and a string. The string may be a key to the dictionary. The value associated with that key, in turn, maybe another key to the dictionary. The function keeps looking up the key until it reaches a key that has no associated value. It returns that key. If a key is ever accessed more than once (meaning a loop has been reached), it returns the boolean False. 
+
+## LazyEncrypt.py
+The script contains a function called lazy_encrypt which takes three parameters- two strings and a dictionary. The first string the filename of a file to which to write (output file), the second string is the filename of a file from which to read (input file), and the dictionary is a mapping of character: character pairs you should use to "encrypt" the contents of the input file before writing it to the output file. lazy_encrypt goes through every character in the input_file. If the character is a key in the dictionary, then lazy_encrypt writes  writes the value associated with that key to the output file. If it is not a key, it writes the original character.
