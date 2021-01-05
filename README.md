@@ -226,3 +226,6 @@ Two strings are considered anagrams if they have only the same letters, as well 
 
 ## UpperLowerList.py
 The script contains a function called alter_list which has two parameters- a list of strings and a list of integers. The list of integers represents the indices for the list of strings. The function alters the capitalization of all the words at the designated indices. If the word has all capitals, it should become all lower case. if it was all lower case, it should become all capitals. 
+
+## RabbitHole.py
+The script contains a function called rabbit_hole which has two parameters- a dictionary and a string. The string may be a key to the dictionary. The value associated with that key, in turn, maybe another key to the dictionary. The function keeps looking up the key until it reaches a key that has no associated value. It returns that key. If a key is ever accessed more than once (meaning a loop has been reached), it returns the boolean False. 
